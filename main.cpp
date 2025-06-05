@@ -1,12 +1,13 @@
 #include <iostream>
+#include <string>
+#include "Containers/String.h"
 using namespace std;
 
-
 int main() {
-    cout << "Hello World!" << endl;
+    sdf::String str = "      ";
+    str.trim();
+    cout << str.size() << endl;
 
-    int arr[10] = {1,2,3};
-    cout << arr[6];
 
     return 0;
 }

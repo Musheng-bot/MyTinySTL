@@ -488,7 +488,7 @@ namespace sdf {
     class Vector<T, Alloc>::Iterator
     {
     public:
-        friend class const_Interator;
+        //friend class const_Interator;
         explicit Iterator(T* ptr = nullptr) :data_ptr_(ptr) {}
         ~Iterator() = default;
         Iterator(const Iterator& it) = default;

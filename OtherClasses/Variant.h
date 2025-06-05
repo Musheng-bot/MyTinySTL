@@ -5,10 +5,21 @@
 #ifndef VARIANT_H
 #define VARIANT_H
 
+#include <iostream>
+
 namespace sdf {
 
+template<class ... Args>
 class Variant {
+    public:
+        explicit Variant(Args ... args) {}
+        ~Variant() {}
+        void show() const {
+            std::cout << args << std::endl;
+        }
 
+    private:
+        Args args...;
 };
 
 } // sdf

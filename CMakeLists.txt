@@ -16,6 +16,8 @@ add_executable(MyTinySTL main.cpp
         Containers/Queue.h
         Containers/Set.h
         Containers/Stack.h
+        Containers/String.h
+        Containers/String.cpp
         Containers/Vector.h
 
 
