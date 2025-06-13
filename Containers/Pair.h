@@ -7,8 +7,10 @@ template <class KeyType, class ValueType>
 class Pair {
     public:
         explicit Pair(const KeyType &key = KeyType(), const ValueType &value = KeyType()) : key_(key), value_(value) {}
-        ~Pair() {}
+        ~Pair() = default;
 
+        const KeyType &first() const { return key_; }
+        const ValueType &second() const { return value_; }
         KeyType &first() { return key_; }
         ValueType &second() { return value_; }
 

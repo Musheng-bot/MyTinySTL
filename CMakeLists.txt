@@ -18,6 +18,8 @@ add_executable(MyTinySTL main.cpp
         Containers/Stack.h
         Containers/String.h
         Containers/String.cpp
+        Containers/UnorderedMap.h
+        Containers/UnorderedSet.h
         Containers/Vector.h
 
 
@@ -28,6 +30,7 @@ add_executable(MyTinySTL main.cpp
         DataStructures/AVL.h
         DataStructures/BST.cpp
         DataStructures/BST.h
+        DataStructures/HashTable.h
         DataStructures/Huffman_Tree.h
         DataStructures/Huffman_Tree.cpp
         DataStructures/RedBlackTree.h
