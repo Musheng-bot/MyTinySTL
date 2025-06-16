@@ -5,6 +5,8 @@ I hope this repository can really help you learn the data structures and algorit
 All the data structures are in the namespace sdf to avoid the potential conflicts between the Standard Library and MyTinySTL.  
 Some structures that have already been used in the Containers do not exist in the 'Data Structures' Part.  
 
+It is still updating and welcomed to be used in education!
+
 >鉴于英文写起来真的好累，这里开始能用中文就用中文。
 
 ## Algorithms
